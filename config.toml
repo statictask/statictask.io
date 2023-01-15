@@ -1,3 +1,10 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "https://statictask.io"
+title = "Statictask"
+enableRobotsTXT = true
+theme = "compose"
+enableGitInfo = true
+
+# disableKinds = ["taxonomy", "taxonomyTerm"]
+
+[outputs]
+  home = ["HTML", "RSS","JSON"]
